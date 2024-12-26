@@ -10,7 +10,7 @@ import org.junit.jupiter.api.BeforeAll;
 
 /**
  *
- * @hamzah User
+ * @ User
  */
 public class SimpleClassTest {
     
@@ -30,13 +30,13 @@ public class SimpleClassTest {
     {
         //SimpleClass test =new SimpleClass();
         int expected
-                =15;
+                =5;
         int actual;
         
         
-        actual=test.subEm(15, 5);
+        actual=test.addEm(4, 1);
         
-        assertEquals(expected,actual,"Subem does not work ");
+        assertEquals(expected,actual,"Addem does not work ");
         
     }
     

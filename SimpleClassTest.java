@@ -10,7 +10,7 @@ import org.junit.jupiter.api.BeforeAll;
 
 /**
  *
- * @author User
+ * @hamzah User
  */
 public class SimpleClassTest {
     
@@ -25,17 +25,18 @@ public class SimpleClassTest {
         test = new SimpleClass();
     }
     @Test
-    public void testAddEm() 
+     //This Function will test the SubEm Function if they give the expected value of the athirmatic operation Sub(-)
+    public void testSddEm() 
     {
         //SimpleClass test =new SimpleClass();
         int expected
-                =4;
+                =15;
         int actual;
         
         
-        actual=test.addEm(1, 2);
+        actual=test.subEm(15, 5);
         
-        assertEquals(expected,actual,"Addem does not work correctly");
+        assertEquals(expected,actual,"Subem does not work ");
         
     }
     
